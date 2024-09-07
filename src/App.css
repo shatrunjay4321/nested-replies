@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.comment_container {
+  margin: 10px;
+}
+
+.card_container {
+  padding: 10px;
+  background-color: #e0e0e0;
+  margin: 10px 0 0 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.reply_container {
+  margin: 10px 0 0 20px;
+  width: 350px;
+}
+
+.button_container {
+  display: flex;
+  width: 200px;
+  justify-content: flex-start;
+  margin: 10px 0 0 0;
+}
+
+.button_container button {
+  background-color: #e0e0e0;
+  border: none;
+  outline: none;
+  color: rgb(54, 54, 255);
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+button {
+  cursor: pointer;
+}
